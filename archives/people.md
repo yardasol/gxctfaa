@@ -1,12 +1,10 @@
 ---
-title: Staff
+title: People
 ---
-# Staff
 
-{% for author in site.authors %}* ## [{{ author.name }}]({{ author.url }})
+{% for person in site.data.people %}* ### [{{ person.name }}]
     
-    ### {{ author.position }}
-    
-    {{ author.content | markdownify }}
-    
+    {{ person.description | markdownity }}
+
+
 {% endfor %}
