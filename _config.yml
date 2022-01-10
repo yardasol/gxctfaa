@@ -2,7 +2,7 @@ collections:
   authors:
     output: true
     
-baseurl: https://yardasol.github.io/gxctfaa
+baseurl: /gxctfaa
 
 defaults:
   - scope:
