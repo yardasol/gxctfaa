@@ -2,5 +2,5 @@
 layout: default 
 ---
 
-[Locker Room Jukebox](/archives/jukebox.html)
+[Locker Room Jukebox]( {{ site.baseurl }}/archives/jukebox.html)
 
