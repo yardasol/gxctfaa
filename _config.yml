@@ -1,6 +1,8 @@
 collections:
   authors:
     output: true
+    
+baseurl: https://yardasol.github.io/gxctfaa
 
 defaults:
   - scope:
