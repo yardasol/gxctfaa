@@ -10,3 +10,5 @@ title3: Orange Disc
 # Jukebox page
 
 {% include youtubeplaylist.html title=page.title1 id=page.id1 %}
+{% include youtubeplaylist.html title=page.title2 id=page.id2 %}
+{% include youtubeplaylist.html title=page.title3 id=page.id3 %}
